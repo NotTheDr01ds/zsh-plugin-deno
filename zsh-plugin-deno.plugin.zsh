@@ -1,1 +1,1 @@
-deno completions zsh > $(readlink -f $0:h)/_zsh-plugin-deno
+deno completions zsh > ${$(readlink -f $0):h}/_${$(readlink -f $0):h:t}
